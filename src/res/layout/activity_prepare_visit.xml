@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prepare_visit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.orfriend.orfriend.frontend.userPage.mychildrenPage.PrepareVisit">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@drawable/prepare_visit"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton12"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Enter time and date  to visit child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_marginTop="34dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/imageButton12"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/date"
+        android:hint="Enter date "
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="After sending the request we will conntact you to confirm the visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:id="@+id/textView19"
+        android:gravity="center"
+        android:layout_below="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:layout_marginTop="11dp"
+        android:id="@+id/time"
+        android:hint="Enter time"
+        android:layout_below="@+id/date"
+        android:layout_alignLeft="@+id/date"
+        android:layout_alignStart="@+id/date" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:scaleType="fitXY"
+        android:id="@+id/back4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/hometouser"
+        android:scaleType="fitXY"
+        android:id="@+id/home4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Send Request"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/button5"
+        android:textColor="#F05A2B"
+        android:background="@drawable/bluecirclebtn"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageButton12"
+        android:layout_alignStart="@+id/imageButton12" />
+
+</RelativeLayout>

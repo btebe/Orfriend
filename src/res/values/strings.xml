@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">About OrFriend</string>
+    <string name="english">English</string>
+    <string name="arabbtn">عربي</string>
+    <string name="about_orfriend">About OrFriend</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="kid1">Sam</string>
+    <string name="kid2">Sarah</string>
+    <string name="kid_name">Sarah</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="kid3">sam</string>
+    <string name="kid4">sarah</string>
+    <string name="google_android_map_api_key"> AIzaSyCFcD82c90mD9j2Uv3SWas0nMAEm_Bm32g </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="thumbnail">thumbnail</string>
+    <string-array name="names">
+        <item>Choose Country</item>
+        <item>Kuwait</item>
+        <item>Eygpt</item>
+    </string-array>
+    <string name="title_activity_list_category">ListCategory</string>
+</resources>

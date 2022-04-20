@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_kid_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.orfriend.orfriend.frontend.userPage.mychildrenPage.KidMenu">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@null"
+        app:srcCompat="@drawable/prepare_visit"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton12"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageButton10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:background="@null"
+        app:srcCompat="@drawable/information"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton6"
+        tools:ignore="ContentDescription"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageButton10"
+        android:layout_alignStart="@+id/imageButton10" />
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        app:srcCompat="@drawable/play_with_me"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton10"
+        android:background="@null"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageButton11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="135dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/storytelling"
+        android:id="@+id/imageButton9"
+        android:background="@null"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageButton6"
+        android:layout_centerHorizontal="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sarah"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#F05A2B"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageButton11"
+        android:layout_alignEnd="@+id/imageButton11"
+        android:layout_marginTop="51dp"
+        android:id="@+id/kidpic" />
+
+    <TextView
+        android:text="@string/kid_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kidname"
+        android:textSize="20sp"
+        android:textColor="#161d49"
+
+        tools:ignore="UnknownId"
+        android:layout_alignBottom="@+id/homekidbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/donate"
+        android:id="@+id/imageButton8"
+        tools:ignore="ContentDescription"
+        android:layout_alignBottom="@+id/imageButton9"
+        android:layout_alignLeft="@+id/imageButton12"
+        android:layout_alignStart="@+id/imageButton12"
+        android:layout_height="120dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/back"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:id="@+id/backbtn4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/hometouser"
+        android:id="@+id/homekidbtn"
+        tools:ignore="ContentDescription,UnknownId"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/kidpic"
+        android:layout_toStartOf="@+id/kidpic" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/lets_talk"
+        android:id="@+id/imageButton11"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="34dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/imageButton9"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

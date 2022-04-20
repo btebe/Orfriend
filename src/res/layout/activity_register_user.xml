@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_borders"
+    tools:context="com.orfriend.orfriend.frontend.index.RegisterUser"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/registeration_icon"
+        android:layout_marginTop="29dp"
+        android:id="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:text="The Registration Process:"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="52dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:textColor="#161d49"
+        android:layout_alignParentEnd="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/orage_inputs"
+        android:id="@+id/tv_process"
+        android:scrollbars="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"
+        android:textColor="#172984"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="170dp" />
+
+    <Button
+        android:text="Register"
+        android:background="@drawable/pressedbtn"
+        android:textColor="#F05A2B"
+        android:id="@+id/register_btn2"
+        android:layout_width="80dp"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/tv_process"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:layout_height="80dp" />
+
+    <ImageButton
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:scaleType="fitXY"
+        android:background="@null"
+        app:srcCompat="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/backbtn1"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

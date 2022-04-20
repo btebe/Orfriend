@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_be_friend_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_borders"
+    tools:context="com.orfriend.orfriend.frontend.userPage.befriendPage.BeFriendPage">
+
+    <ImageView
+        android:layout_width="100dp"
+        app:srcCompat="@drawable/befriendicon"
+        android:layout_marginTop="33dp"
+        android:id="@+id/imageView7"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/back"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/backbtn6" />
+
+    <Button
+        android:text="Random Friend"
+        android:background="@drawable/press_orange_button"
+        android:textColor="#161D49"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_width="120dp"
+        android:layout_marginTop="92dp"
+        android:id="@+id/randombtn"
+        android:layout_height="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Friend List"
+        android:background="@drawable/press_orange_button"
+        android:textColor="#161D49"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_width="120dp"
+        android:id="@+id/frienlistbtn"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/randombtn"
+        android:layout_alignStart="@+id/backbtn6" />
+</RelativeLayout>

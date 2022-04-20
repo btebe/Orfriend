@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_story_telling"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.orfriend.orfriend.frontend.userPage.mychildrenPage.StoryTelling">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mic_pic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:id="@+id/buttonx"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="37dp"
+        android:textColor="#F05A2B"
+        android:background="@drawable/bluecirclebtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/buttonx"
+        android:layout_centerHorizontal="true"
+        android:textColor="#F05A2B"
+        android:background="@drawable/bluecirclebtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#F05A2B"
+        android:background="@drawable/bluecirclebtn"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="STOP PLAYING RECORDING "
+        android:id="@+id/button4"
+        android:textSize="10sp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#F05A2B"
+        android:background="@drawable/bluecirclebtn"
+        />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:scaleType="fitXY"
+        android:id="@+id/back4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/hometouser"
+        android:scaleType="fitXY"
+        android:id="@+id/home4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="Send to child"
+        android:id="@+id/send"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/circlebtn"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

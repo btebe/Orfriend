@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_child_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_borders"
+    tools:context="com.orfriend.orfriend.marwaPart.ChildInfo">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:background="@drawable/information"
+        android:scaleType="fitXY"
+        android:id="@+id/imageButton6"
+        tools:ignore="ContentDescription"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        android:scaleType="fitXY"
+        android:id="@+id/back4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/hometouser"
+        android:scaleType="fitXY"
+        android:id="@+id/home4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Location"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/infolocation"
+        android:layout_below="@+id/infoage"
+        android:layout_alignStart="@+id/back4" />
+
+    <TextView
+        android:text="Name"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:id="@+id/infoname"
+        android:layout_marginTop="86dp"
+        android:layout_below="@+id/imageButton6"
+        android:layout_alignEnd="@+id/infolocation"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:text="Age"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoage"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/infoname"
+        android:layout_alignStart="@+id/infoname" />
+
+    <TextView
+        android:text="Likes"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/infohobby"
+        android:layout_below="@+id/infolocation"
+        android:layout_alignStart="@+id/infoage" />
+
+</RelativeLayout>

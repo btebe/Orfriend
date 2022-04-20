@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_borders"
+    tools:context="com.orfriend.orfriend.frontend.userPage.UserHomePage">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logoicon"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:textColor="#161d49"
+        android:textSize="20sp"
+        android:text="UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="100dip"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/adopted"
+        android:id="@+id/adoptbtn"
+        tools:ignore="ContentDescription"
+        android:layout_marginBottom="39dp"
+        android:layout_height="120dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="110dip"
+        android:scaleType="fitXY"
+        android:layout_height="120dip"
+        app:srcCompat="@drawable/befriendicon"
+        android:id="@+id/befriendbtn"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/adoptbtn"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <ImageButton
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/my_children"
+        android:id="@+id/mychildernbtn"
+        tools:ignore="ContentDescription"
+        android:layout_height="115dip"
+        android:layout_width="135dip"
+        android:layout_alignBottom="@+id/userProfilebtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:layout_width="120dip"
+        app:srcCompat="@drawable/profile"
+        android:id="@+id/userProfilebtn"
+        tools:ignore="ContentDescription"
+        android:layout_height="120dip"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/befriendbtn"
+        android:layout_alignStart="@+id/befriendbtn"
+        android:layout_marginTop="15dp"
+        android:id="@+id/logout_btn"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

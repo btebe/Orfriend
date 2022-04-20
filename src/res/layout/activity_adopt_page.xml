@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_adopt_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_borders"
+    tools:context="com.orfriend.orfriend.frontend.userPage.adoptPage.AdoptPage">
+
+    <ImageView
+        android:layout_width="120dp"
+        app:srcCompat="@drawable/adopted"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:id="@+id/imageView10"
+        tools:ignore="ContentDescription"
+        android:layout_height="120dp" />
+
+
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/hometouser"
+        android:id="@+id/homebtn2"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:text="Random"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textColor="#161D49"
+        android:background="@drawable/press_orange_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/randomchild"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_alignTop="@+id/choosebtn2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Choose Child"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:textColor="#161D49"
+        android:background="@drawable/press_orange_button"
+        android:id="@+id/choosebtn2"
+        android:layout_height="120dp"
+        android:layout_width="120dp"
+        android:layout_marginTop="95dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignLeft="@+id/homebtn2"
+        android:layout_alignStart="@+id/homebtn2"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

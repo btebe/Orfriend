@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_profile_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_borders"
+    tools:context="com.orfriend.orfriend.frontend.userPage.ProfilePage">
+
+    <ImageButton
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/back"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="11dp"
+        android:id="@+id/backbtn6"
+        android:layout_width="50dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/john"
+        android:id="@+id/userPic"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#F05A2B"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:text="Reading"
+        android:textSize="20sp"
+        android:textColor="#101218"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hobbyField"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/jobField" />
+
+    <TextView
+        android:text="Kuwaiti"
+        android:textSize="20sp"
+        android:textColor="#101218"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nationalityField"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/hobbyField"
+        android:layout_alignStart="@+id/hobbyField"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="married"
+        android:textSize="20sp"
+        android:textColor="#101218"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusField"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/nationalityField"
+        android:layout_alignEnd="@+id/hobbyField"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="mali89@gmail.com"
+        android:textSize="20sp"
+        android:textColor="#171a2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailField"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/statusField"
+        android:layout_alignStart="@+id/nationalityField"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="39"
+        android:textSize="20sp"
+        android:textColor="#0e1229"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageField"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/nameField"
+        android:layout_alignStart="@+id/statusField" />
+
+    <TextView
+        android:text="English Teacher"
+        android:textSize="20sp"
+        android:textColor="#0e1125"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jobField"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/ageField"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Mohamed Ali"
+        android:textSize="20sp"
+        android:textColor="#262d54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameField"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/userPic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="edit"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/editbtn"
+        android:layout_alignTop="@+id/backbtn6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp"
+        android:layout_width="55dp" />
+
+
+</RelativeLayout>
+
