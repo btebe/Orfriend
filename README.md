@@ -16,4 +16,7 @@ No Demo available.
 
 #Description
 
-One of our very first projects my colleagues and i created for one of our cs classes in university. The idea of the app is the process on how to befriend and adopt a child globaly. It's an androuid app prototype created by using android studio.
+One of our very first projects my colleagues and i created for one of our cs classes in university. The idea of the app is the process on how to befriend and adopt a child locally in a more convenient way. It's an androuid app prototype created by using android studio.
+
+
+![ori_group](https://user-images.githubusercontent.com/61168223/164324600-e581f1ff-36ea-4756-aeab-d445b7c6d52b.png)
